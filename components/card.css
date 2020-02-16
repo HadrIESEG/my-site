@@ -1,0 +1,39 @@
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.cards{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+	border-radius: 6px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+
+
+.cards img{
+	width: 400px;
+	border-radius: 6px;
+	height: 250px;	
+}
+
+
+
+.cards h3{
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+}
+
+.class {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.2) 50%), url(../../imagesSITE/esp.jpg);
+}

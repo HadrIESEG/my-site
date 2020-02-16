@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Volkorn:400,700|Roboto:300,400,700");
+
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body {
+  font-family: 'Volkorn', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.2) 50%), url(../../imagesSITE/esp.jpg);
+}
+
+p{
+	color: white;
+}
